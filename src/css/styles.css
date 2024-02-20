@@ -165,6 +165,20 @@ color:var(--darck-font)	 ;
 		width: 100%;
 		margin-bottom: 200px;
 	}
+	.buttons__container{
+		display: flex;
+		gap: 30px;
+		margin-top: 50px;
+		justify-content: center;
+	}
+	.button{
+		display: block;
+		width: 180px;
+		text-align: center;
+		padding: 10px 20px;
+		border-radius: 15px;
+		border: 1px solid var(--light-font);
+	}
 	.about{
 		margin: 0 auto;		
 		width: 700px;
@@ -296,7 +310,7 @@ color:var(--darck-font)	 ;
 	.nav__ul{
 		justify-content: center;
 		display: flex;
-		gap: 80px;
+		gap: 50px;
 	}
 	.nav__li:hover{
 	color:var(--darck-font)	 ;
@@ -315,11 +329,11 @@ color:var(--darck-font)	 ;
 		margin-bottom: 150px;
 	}
 	.light{
-		font-size: 2rem;
+		font-size: 1.7rem;
 		font-weight: lighter;
 	}
 	.bold{
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 	.profesion{
 		letter-spacing: 0.6rem;
@@ -333,7 +347,7 @@ color:var(--darck-font)	 ;
 	}
 	.button{
 		display: block;
-		width: 120px;
+		width: 100px;
 		text-align: center;
 		padding: 10px 20px;
 		border-radius: 15px;
@@ -341,8 +355,8 @@ color:var(--darck-font)	 ;
 	}
 	.about{
 		margin: 0 auto;	
-		width: 360px;
-		height: 600px;
+		width: 300px;
+		height: 750px;
 		background-color: #16161d37;
 		box-shadow: -10px 0 50px 0px  rgba(0, 0, 0, 0.4);
 		border-radius: 20px;
