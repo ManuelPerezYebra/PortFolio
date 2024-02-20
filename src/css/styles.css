@@ -284,9 +284,8 @@ color:var(--darck-font)	 ;
 	.about{
 		margin: 0 auto;		
 		margin-bottom: 60px;	
-
 		width: 400px;
-		height: 600px;
+		height: 630px;
 		background-color: #16161d37;
 		box-shadow: -10px 0 50px 0px  rgba(0, 0, 0, 0.4);
 		border-radius: 20px;
@@ -355,6 +354,7 @@ color:var(--darck-font)	 ;
 	}
 	.about{
 		margin: 0 auto;	
+		margin-bottom: 30px;
 		width: 300px;
 		height: 750px;
 		background-color: #16161d37;
